@@ -1,0 +1,28 @@
+#List 
+
+a=[1,2,4,5,7,9]
+b=[3,6,9,8,2,6]
+#Adding list
+c=a+b
+print(c)
+
+#Finding length
+print(len(a))
+print(len(b))
+
+#Accesing the elements using index number- Slicing
+print(a[2])
+print(b[3:])
+print(a[-3:-1])
+
+#List methods
+a.append(4)
+print(a)
+a.insert(2,0)
+print(a)
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+a.pop(3)
+print(a)
